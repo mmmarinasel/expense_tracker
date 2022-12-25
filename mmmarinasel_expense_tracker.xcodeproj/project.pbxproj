@@ -8,24 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		41A0425A29572EC2007D8C56 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A0425929572EC2007D8C56 /* AppDelegate.swift */; };
-		41A0425C29572EC2007D8C56 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A0425B29572EC2007D8C56 /* SceneDelegate.swift */; };
-		41A0425E29572EC2007D8C56 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A0425D29572EC2007D8C56 /* ViewController.swift */; };
-		41A0426129572EC2007D8C56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41A0425F29572EC2007D8C56 /* Main.storyboard */; };
+		41A0425E29572EC2007D8C56 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A0425D29572EC2007D8C56 /* MainViewController.swift */; };
 		41A0426429572EC2007D8C56 /* mmmarinasel_expense_tracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 41A0426229572EC2007D8C56 /* mmmarinasel_expense_tracker.xcdatamodeld */; };
 		41A0426629572ECB007D8C56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41A0426529572ECB007D8C56 /* Assets.xcassets */; };
 		41A0426929572ECB007D8C56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41A0426729572ECB007D8C56 /* LaunchScreen.storyboard */; };
+		41A042712957327B007D8C56 /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A042702957327A007D8C56 /* Observable.swift */; };
+		41A04278295735BB007D8C56 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A04277295735BB007D8C56 /* Protocols.swift */; };
+		41A0427E29578054007D8C56 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A0427D29578054007D8C56 /* MainViewModel.swift */; };
+		41A0428029578107007D8C56 /* Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A0427F29578107007D8C56 /* Loader.swift */; };
+		41A0428229586F4B007D8C56 /* TransactionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A0428129586F4B007D8C56 /* TransactionTableViewCell.swift */; };
+		41A04289295872E7007D8C56 /* TransactionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A04288295872E7007D8C56 /* TransactionViewController.swift */; };
+		41A0428B29587302007D8C56 /* TransactionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A0428A29587302007D8C56 /* TransactionViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		41A0425629572EC2007D8C56 /* mmmarinasel_expense_tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mmmarinasel_expense_tracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41A0425929572EC2007D8C56 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		41A0425B29572EC2007D8C56 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		41A0425D29572EC2007D8C56 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		41A0426029572EC2007D8C56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		41A0425D29572EC2007D8C56 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		41A0426329572EC2007D8C56 /* mmmarinasel_expense_tracker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = mmmarinasel_expense_tracker.xcdatamodel; sourceTree = "<group>"; };
 		41A0426529572ECB007D8C56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		41A0426829572ECB007D8C56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		41A0426A29572ECB007D8C56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41A042702957327A007D8C56 /* Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
+		41A04277295735BB007D8C56 /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
+		41A0427D29578054007D8C56 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		41A0427F29578107007D8C56 /* Loader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loader.swift; sourceTree = "<group>"; };
+		41A0428129586F4B007D8C56 /* TransactionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionTableViewCell.swift; sourceTree = "<group>"; };
+		41A04288295872E7007D8C56 /* TransactionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionViewController.swift; sourceTree = "<group>"; };
+		41A0428A29587302007D8C56 /* TransactionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +68,133 @@
 		41A0425829572EC2007D8C56 /* mmmarinasel_expense_tracker */ = {
 			isa = PBXGroup;
 			children = (
+				41A042752957359E007D8C56 /* Coordinators */,
+				41A04274295732E5007D8C56 /* Service */,
+				41A04272295732D8007D8C56 /* Helper */,
+				41A04273295732DE007D8C56 /* Screens */,
 				41A0425929572EC2007D8C56 /* AppDelegate.swift */,
-				41A0425B29572EC2007D8C56 /* SceneDelegate.swift */,
-				41A0425D29572EC2007D8C56 /* ViewController.swift */,
-				41A0425F29572EC2007D8C56 /* Main.storyboard */,
 				41A0426529572ECB007D8C56 /* Assets.xcassets */,
 				41A0426729572ECB007D8C56 /* LaunchScreen.storyboard */,
 				41A0426A29572ECB007D8C56 /* Info.plist */,
 				41A0426229572EC2007D8C56 /* mmmarinasel_expense_tracker.xcdatamodeld */,
 			);
 			path = mmmarinasel_expense_tracker;
+			sourceTree = "<group>";
+		};
+		41A04272295732D8007D8C56 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				41A042702957327A007D8C56 /* Observable.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		41A04273295732DE007D8C56 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				41A0427929577FEF007D8C56 /* Main */,
+				41A04284295870A8007D8C56 /* Transaction */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		41A04274295732E5007D8C56 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				41A0427F29578107007D8C56 /* Loader.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		41A042752957359E007D8C56 /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				41A04276295735AC007D8C56 /* Protocols */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		41A04276295735AC007D8C56 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				41A04277295735BB007D8C56 /* Protocols.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		41A0427929577FEF007D8C56 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				41A0427C2957800E007D8C56 /* Model */,
+				41A0427B29578009007D8C56 /* View */,
+				41A0427A29577FFA007D8C56 /* ViewModel */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		41A0427A29577FFA007D8C56 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				41A0427D29578054007D8C56 /* MainViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		41A0427B29578009007D8C56 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				41A0425D29572EC2007D8C56 /* MainViewController.swift */,
+				41A0428329586F4F007D8C56 /* Cell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		41A0427C2957800E007D8C56 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		41A0428329586F4F007D8C56 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				41A0428129586F4B007D8C56 /* TransactionTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		41A04284295870A8007D8C56 /* Transaction */ = {
+			isa = PBXGroup;
+			children = (
+				41A04287295870BC007D8C56 /* Model */,
+				41A04286295870B7007D8C56 /* View */,
+				41A04285295870B1007D8C56 /* ViewModel */,
+			);
+			path = Transaction;
+			sourceTree = "<group>";
+		};
+		41A04285295870B1007D8C56 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				41A0428A29587302007D8C56 /* TransactionViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		41A04286295870B7007D8C56 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				41A04288295872E7007D8C56 /* TransactionViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		41A04287295870BC007D8C56 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -130,7 +257,6 @@
 			files = (
 				41A0426929572ECB007D8C56 /* LaunchScreen.storyboard in Resources */,
 				41A0426629572ECB007D8C56 /* Assets.xcassets in Resources */,
-				41A0426129572EC2007D8C56 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,23 +268,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				41A0426429572EC2007D8C56 /* mmmarinasel_expense_tracker.xcdatamodeld in Sources */,
-				41A0425E29572EC2007D8C56 /* ViewController.swift in Sources */,
+				41A042712957327B007D8C56 /* Observable.swift in Sources */,
+				41A0428229586F4B007D8C56 /* TransactionTableViewCell.swift in Sources */,
+				41A04278295735BB007D8C56 /* Protocols.swift in Sources */,
+				41A04289295872E7007D8C56 /* TransactionViewController.swift in Sources */,
+				41A0425E29572EC2007D8C56 /* MainViewController.swift in Sources */,
 				41A0425A29572EC2007D8C56 /* AppDelegate.swift in Sources */,
-				41A0425C29572EC2007D8C56 /* SceneDelegate.swift in Sources */,
+				41A0428029578107007D8C56 /* Loader.swift in Sources */,
+				41A0427E29578054007D8C56 /* MainViewModel.swift in Sources */,
+				41A0428B29587302007D8C56 /* TransactionViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		41A0425F29572EC2007D8C56 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				41A0426029572EC2007D8C56 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		41A0426729572ECB007D8C56 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -296,9 +420,7 @@
 				INFOPLIST_FILE = mmmarinasel_expense_tracker/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -324,9 +446,7 @@
 				INFOPLIST_FILE = mmmarinasel_expense_tracker/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
